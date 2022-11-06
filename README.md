@@ -38,7 +38,7 @@ Furthermore, we hope to expand to locations outside of Jacobs to residential are
 ### Sherry Usman
 
 ## Prerequisites
-NodeJs
+Install Node.js, npm, PhpMyAdmin
 
 ## Setup Instructions:
 
