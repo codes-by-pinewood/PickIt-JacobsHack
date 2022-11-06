@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Find It</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+      <style>
+        
+      </style>
+</head>
+
+<div class="brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="titlepage">
+                    <object data="../images/logo_thick.svg" width="300px" height="200x"></object>
+                
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="titlepage">
+                    
+                    <form method="get" action="/">
+                        <input type="submit" name="give" class="btn-custom shadow-lg p-3 mb-5 rounded" value="home">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="brand-bg">
+        <div class="container">
+            <div class="row">
+                <h1>What would you like to give away?</h1>
+            </div>
+    <form action="/create_item" method="post" class="item" enctype="multipart/form_data">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="description">Description:</label><br>
+        <input type="text" id="description" name="description"> <br> 
+        <label for="image">Photo:</label><br>
+        <input class="file-upload-input" type="file" onchange="readURL(this)" accept=".jpg, .jpeg, .png" id="image" name="image"> <br>
+        <label for="category">Category:</label><br>
+        <input type="text" id="category" name="category"> <br> 
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location"> <br> 
+        <label for="owner">Owner:</label><br>
+        <input type="text" id="owner" name="owner"> <br> <br>
+        <input type="submit" class="btn btn-danger" value="submit">
+    </form>
+    </div>
+
+
+</div>
+
+
+
+
+
